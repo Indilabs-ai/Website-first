@@ -1,38 +1,446 @@
-.App {
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.slider-wrapper{
+  background-color: #6A151C;
+}
+
+.founder-container{
+  padding: 100px 100px 0px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.founder-image{
+  width: 45%;
+}
+
+.founder-image img{
+  width: 100%;
+}
+
+.founder-content{
+  width: 50%;
+}
+
+.founder-content .founder-caption{
+  color: #C7515D;
+  font-size: 20px;
+  padding-bottom: 16px;
+  font-weight: 600
+}
+
+.founder-heading{
+  color: White;
+  font-size: 30px;
+  padding-bottom: 30px;
+  font-weight: 500
+}
+
+.founder-para{
+  width: 90%;
+  color: rgb(237, 237, 237);
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+.navigation-wrapper{
+  position: relative;
+}
+
+.arrow-left{
+  width: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20px;
+  cursor: pointer;
+}
+
+.arrow-right{
+  width: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  cursor: pointer;
+}
+
+
+/* Contact Section */
+
+.contact-wrapper{
+  padding: 100px;
+}
+
+.contact-container{
+  padding: 50px;
+  background-color: #E84756;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-content{
+  width: 40%;
+
+}
+
+.contact-heading{
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.contact-form{
+  width: 40%;
+}
+.contact-form div{
+  position: relative;
+}
+
+.contact-form input{
+  outline: none;
+  border: none;
+  padding: 18px 120px 15px 30px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.contact-form button{
+  position: absolute;
+  background-color: #6A151C;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* footer component */
+
+.footer-wrapper{
+  border-bottom: 2px solid white;
+  padding: 80px 100px 50px 100px;
+  background-color: #6A151C;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-copywrite{
+  background-color: #6A151C;
+  color: white;
+  display: flex;
+  padding: 30px 100px 30px 100px;
+  justify-content: center;
+}
+
+.footer-about{
+  width: 30%;
+}
+
+.footer-about-logo{
+  display: flex;
+  align-items: center;
+}
+
+.footer-about-logo img{
+  width: 50px;
+  /* margin-right: 10px; */
+}
+
+.footer-about-logo p{
+  color: white;
+  font-size: 28px;
+}
+
+.footer-about-caption{
+  color: rgb(216, 216, 216);
+  padding: 20px;
+}
+
+.footer-about-mail{
+  color: rgb(216, 216, 216);
+  padding: 20px;
+}
+
+.footer-nav-heading{
+  color: white;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.footer-nav-content{
+  list-style: none;
+  color: rgb(233, 233, 233);
+}
+
+.footer-nav-about{
+  width: 20%;
+}
+.footer-nav-social{
+  width: 200px;
+  padding-top: 100px;
+}
+.footer-nav-about li{
+  padding-bottom: 5px;
+}
+
+.social-media{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-icon{
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+/* About component */
+
+.about-wrapper{
+  padding: 100px 40px 300px 40px;
+}
+
+.about-container{
+  width: 100%;
+  height: 400px;
+  padding: 80px;
+  background-color: #E84756;
+  
+}
+
+.about-heading{
   text-align: center;
+  color: white;
+  font-size: 40px;
+  padding-bottom: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.about-para{
+  width: 50%;
+  padding-bottom: 50px;
+  text-align: center;
+  color: white;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.about-para-container{
+  display: flex;
+  justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.about-cards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-card{
+  width: 25%;
+  padding: 130px 25px 25px 25px;
+  background-color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-align: center;
+  box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
 }
 
-.App-link {
-  color: #61dafb;
+.about-card h3{
+  padding-bottom: 6px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.about-card p{
+  padding-top: 10px;
+}
+
+.indilabs-white{
+  height: 40px !important;
+  width: 250px !important;
+}
+
+@media (max-width: 1330px){
+  .about-card{
+    width: 30%;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media (max-width: 1200px){
+  .about-container{
+    padding: 40px;
+    
+  }
+}
+@media (max-width: 1024px){
+  .footer-wrapper{
+    padding: 40px;
+  }
+  .contact-content{
+    width: 50%;
+  }
+  .contact-wrapper{
+    padding: 60px;
+  }
+  .contact-form{
+    width: 48%;
+  }
+  .founder-container{
+    padding: 50px 50px 0px 50px;
+  }
+  .about-container{
+    padding: 10px;
+    
+  }
+  .about-wrapper{
+    padding: 100px 20px 300px 20px;
+  }
+}
+@media (max-width: 900px){
+  .footer-wrapper{
+    flex-wrap: wrap;
+  }
+  .footer-about{
+    width: 100%;
+  }
+  .footer-about-caption{
+    padding: 10px;
+  }
+  .footer-about-mail{
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+  .contact-container{
+    flex-wrap: wrap;
+  }
+  .contact-content{
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  
+  .contact-form{
+    width: 100%;
+  }
+  .founder-container{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .founder-image{
+    width: 80%;
+  }
+  .founder-content{
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .about-container{
+    padding: 80px;
+    height: auto;
+  }
+  .about-wrapper{
+    padding: 100px 40px 100px 40px;
+  }
+  .about-card{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .about-para{
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px){
+  .footer-nav-about{
+    width: 50%;
+  }
+  .contact-wrapper{
+    padding: 30px;
+  }
+  .contact-container{
+    padding: 30px;
+  }
+  .founder-image{
+    width: 100%;
+  }
+  .founder-para{
+    width: 100%;
+  }
+  .founder-content{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .about-container{
+    width: 100% !important;
+    padding: 40px;
+    height: auto;
+  }
+  .about-para-container p {
+    font-size: 22px !important;
+  }
+  .about-wrapper{
+    padding: 50px 0px 50px 0px;
+  }
+  .about-card{
+    width: 100%;
+    margin-bottom: 30px;
+    height: 500px !important;
+  }
+  .about-card h3 {
+    font-size: 25px !important;
+  }
+  .about-card p {
+    font-size: 20px !important;
+    color: rgb(95, 94, 94);
+  }
+  .about-para{
+    width: 100%;
+  }
+}
+
+
+
+@media (max-width: 400px){
+  .founder-container{
+    padding: 20px;
+  }
+  .about-container{
+    /* padding: 20px; */
+    width: 100% ;
+    height: auto;
+  }
+  .about-wrapper{
+    padding: 50px 0px 50px 0px;
+  }
+  .about-card{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .about-para{
+    width: 100%;
+  }
+  .indilabs-white{
+    height: 50% !important;
+    width: 50% !important;
   }
 }
