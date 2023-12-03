@@ -1,5 +1,6 @@
 import React from 'react'
 import '../App.css';
+import { SocialIcon } from 'react-social-icons'
 import { Facebook } from 'lucide-react';
 import { Instagram } from 'lucide-react';
 import { Twitter } from 'lucide-react';

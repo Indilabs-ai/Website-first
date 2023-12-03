@@ -14,12 +14,20 @@
   justify-content: space-between;
 }
 
-.founder-image{
+
+.founder-image-box{
   width: 45%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  overflow: hidden;
 }
 
-.founder-image img{
-  width: 100%;
+.founder-img{
+  width: 1060%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .founder-content{
@@ -227,6 +235,7 @@
   color: white;
   font-size: 40px;
   padding-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .about-para{
@@ -280,6 +289,10 @@
   width: 250px !important;
 }
 
+.founder-image {
+  height: 490px;
+}
+
 @media (max-width: 1330px){
   .about-card{
     width: 30%;
@@ -313,6 +326,9 @@
   }
   .about-wrapper{
     padding: 100px 20px 300px 20px;
+  }
+  .about-card {
+    height: 130% !important;
   }
 }
 @media (max-width: 900px){
@@ -442,5 +458,11 @@
   .indilabs-white{
     height: 50% !important;
     width: 50% !important;
+  }
+  .about-card h3 {
+    font-size: 120% !important;
+  }
+  .about-card p {
+    font-size: 100% !important;
   }
 }
