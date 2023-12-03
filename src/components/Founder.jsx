@@ -21,8 +21,8 @@ const Founder = () => {
       <div className="navigation-wrapper">
         <div ref={sliderRef} className="keen-slider slider-wrapper">
           <div className="keen-slider__slide founder-container">
-              <div className='founder-image'>
-                <img src="./img/founder.jpeg"/>
+              <div className='founder-image-box'>
+                <img src="./img/founder.jpeg" className="founder-img"/>
               </div>
               <div className='founder-content'>
                 <p className='founder-caption'>Meet the Founder</p>
@@ -31,17 +31,7 @@ const Founder = () => {
                 <p className='founder-para'>Simply execute this code in your JavaScript file or script, and it will remove all stored data in the local storage for the current domain. Simply execute this code in your JavaScript file or script, and it will remove all stored data in the local storage for the current domain.</p>
               </div>
           </div>
-          {/* <div className="keen-slider__slide founder-container">
-              <div className='founder-image'>
-                <img src="public\img\founder.jpeg"/>
-              </div>
-              <div className='founder-content'>
-                <p className='founder-caption'>Meet the Founder</p>
-                <p className='founder-heading'>Mr. Amit Chandola</p>
-                <p className='founder-para'>Simply execute this code in your JavaScript file or script, and it will remove all stored data in the local storage for the current domain.</p>
-                <p className='founder-para'>Simply execute this code in your JavaScript file or script, and it will remove all stored data in the local storage for the current domain. Simply execute this code in your JavaScript file or script, and it will remove all stored data in the local storage for the current domain.</p>
-              </div>
-          </div> */}
+         
         </div>
         {loaded && instanceRef.current && (
           <>
