@@ -1,9 +1,10 @@
 import React from 'react'
 import '../App.css';
-import { SocialIcon } from 'react-social-icons'
+ 
 import { Facebook } from 'lucide-react';
 import { Instagram } from 'lucide-react';
-import { Twitter } from 'lucide-react';
+// import { Twitter } from 'lucide-react';
+import { FaXTwitter } from "react-icons/fa6";
 import { Linkedin } from 'lucide-react';
 const Footer = () => {
   return (
@@ -37,7 +38,7 @@ const Footer = () => {
                 <div className='social-media'>
                     <div className='social-icon'><Facebook /></div>
                     <div className='social-icon'><Instagram /></div>
-                    <div className='social-icon'><Twitter /></div>
+                    <div className='social-icon'><FaXTwitter /></div>
                     <div className='social-icon'><Linkedin /></div>
                 </div>
             </div>

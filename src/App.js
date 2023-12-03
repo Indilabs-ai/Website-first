@@ -3,6 +3,7 @@ import Founder from './components/Founder'
 import Contact from './components/Contact'
 import Footer from './components/Footer';
 import About from './components/About';
+import Features from './components/Features'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Founder/>
       <Contact />
       <Footer />
+      <Features />
     </>
   );
 }
