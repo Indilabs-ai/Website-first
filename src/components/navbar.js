@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { NavLink } from "react-router-dom";
+import { Link } from 'react-scroll';
+
 
 const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
@@ -21,19 +23,19 @@ const Navbar = () => {
         >
           <ul>
             <li>
-              <NavLink to="/">Home</NavLink>
+              <Link to="home" smooth={true}>Home</Link>
             </li>
             <li>
-              <NavLink to="/about">About</NavLink>
+              <Link to="about" smooth={true}>About</Link>
             </li>
             <li>
-              <NavLink to="/service">Services</NavLink>
+              <Link to="our-product" smooth={true}>Our Product</Link>
             </li>
             <li>
-              <NavLink to="/features">Features</NavLink>
+              <Link to="features" smooth={true}>Features</Link>
             </li>
             <li>
-              <NavLink to="/contact"><button>Contact Us</button></NavLink>
+              <Link to="contact" smooth={true}><button>Contact Us</button></Link>
             </li>
           </ul>
         </div>

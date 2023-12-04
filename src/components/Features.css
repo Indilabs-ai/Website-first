@@ -1,0 +1,49 @@
+h1 {
+    margin: 1rem auto 4rem;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 320px;
+    margin: auto 1rem;
+    text-align: center;
+    font-family: arial;
+    height: 200px;
+}
+
+.card-1-heading {
+    background-color: rgba(220, 0, 0, 0.10);
+    color: #DC0000;
+    font-size: 15px;
+    width: 100px;
+    height: 20px;
+    border-radius: 15%;
+}
+.card-2-heading {
+    background-color: rgba(176, 0, 220, 0.10);
+    color: #B000DC;
+    font-size: 15px;
+    width: 100px;
+    height: 20px;
+    border-radius: 15%;
+}
+.card-3-heading {
+    background-color: rgba(0, 88, 220, 0.10);
+    color: #0058DC;
+    font-size: 15px;
+    width: 100px;
+    height: 20px;
+    border-radius: 15%;
+
+}
+.card-4-heading {
+    background-color: rgba(12, 190, 100, 0.10);
+    color: #0CBE64;
+    font-size: 15px;
+    width: 100px;
+    height: 20px;
+    border-radius: 15%;
+
+}
+
