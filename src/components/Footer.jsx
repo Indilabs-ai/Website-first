@@ -12,10 +12,9 @@ const Footer = () => {
             <div className='footer-about'>
                 <div className='footer-about-logo'>
                     <img src="./img/indilabs-white.png" alt="indilabs.ai" className="indilabs-white"/>
-                    {/* <p>Indilabs.ai</p> */}
                 </div>
-                <p className='footer-about-caption'>To add next and previous functionality to your Keen Slider in a React component,</p>
-                <p className='footer-about-mail'>info@indilabs.ai</p>
+                <p className='footer-about-caption'>Pioneering Precision in Risk Mitigation and Collections through Unified Data Excellence.</p>
+                {/* <p className='footer-about-mail'>info@indilabs.ai</p> */}
             </div>
             <div className='footer-nav-about'>
                 <p className='footer-nav-heading'>About us</p>
@@ -23,14 +22,14 @@ const Footer = () => {
                     <li>Company</li>
                     <li>Portfolio</li>
                     <li>Careers</li>
-                    <li>Contact us</li>
+                    {/* <li>Contact us</li> */}
                 </ul>
             </div>
             <div className='footer-nav-about'>
                 <p className='footer-nav-heading'>Contact us</p>
                 <ul className='footer-nav-content'>
-                    <li>To add next and previous functionality to your Keen Slider in a React component,</li>
-                    <li style={{paddingTop: '15px'}}>+9000 0000 000</li>
+                    <li>Have questions or inquiries? Reach out to us for assistance and support.</li>
+                    <li style={{paddingTop: '15px'}}>info@indilabs.ai</li>
                 </ul>
             </div>
             <div className='footer-nav-social'>
@@ -42,7 +41,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <div className='footer-copywrite'>Copyright 2023 Company All rights Reserved</div>
+        <div className='footer-copyright'>Copyright @ 2023 Company All rights Reserved</div>
     </>
   )
 }

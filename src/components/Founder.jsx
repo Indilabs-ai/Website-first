@@ -27,13 +27,13 @@ const Founder = () => {
               <div className='founder-content'>
                 <p className='founder-caption'>Meet the Founder</p>
                 <p className='founder-heading'>Mr. Amit Chandola</p>
-                <p className='founder-para'>Simply execute this code in your JavaScript file or script, and it will remove all stored data in the local storage for the current domain.</p>
-                <p className='founder-para'>Simply execute this code in your JavaScript file or script, and it will remove all stored data in the local storage for the current domain. Simply execute this code in your JavaScript file or script, and it will remove all stored data in the local storage for the current domain.</p>
-              </div>
+                <p className='founder-para'>20+ years of global experience in Credit and collections across US, India, Hong Kong and the Asia Pacific markets.</p>
+                <p className='founder-para'>In his most recent role, Amit was Asia Head of Credit Control Services for a Global Bank, with scope spanning USD100+ Billion in consumer lending assets across 16 markets.</p>
+          </div>
           </div>
          
         </div>
-        {loaded && instanceRef.current && (
+        {/* {loaded && instanceRef.current && (
           <>
             <div className='arrow-left'>
               <Arrow
@@ -44,7 +44,6 @@ const Founder = () => {
                 disabled={currentSlide === 0}
               />
             </div>
-            
             <div className='arrow-right'>
               <Arrow
                 onClick={(e) =>
@@ -54,11 +53,11 @@ const Founder = () => {
                   currentSlide ===
                   instanceRef.current.track.details.slides.length - 1
                 }
-              />
+              /> 
             </div>
             
           </>
-        )}
+        )} */}
       </div>
     </>
   )

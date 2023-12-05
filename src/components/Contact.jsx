@@ -7,7 +7,7 @@ const Contact = () => {
             <div className='contact-container'>
                 <div className='contact-content'>
                   <p className='contact-heading'>Get in touch with us</p>
-                  <p>Subscribe to receive the latest news and updates about 1DA. We promise not to spam you!</p>
+                  <p>Please enter your email address and we shall get back to you. We promise not to spam you!</p>
                 </div>
                 <div className='contact-form'>
                   <form action="">
