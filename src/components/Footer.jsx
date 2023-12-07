@@ -9,7 +9,7 @@ import { Linkedin } from 'lucide-react';
 const Footer = () => {
   return (
     <>
-        <div className='footer-wrapper'>
+        <div id='footer' className='footer-wrapper'>
             <div className='footer-about'>
                 <div className='footer-about-logo'>
                     <img src="./img/indilabs-white.png" alt="indilabs.ai" className="indilabs-white"/>

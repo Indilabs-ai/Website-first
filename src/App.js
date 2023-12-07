@@ -73,7 +73,7 @@ const App = () => {
       <Founder />
       <Contact />
       <Footer />
-      <Features />
+      
     </>
   </Router>
   );

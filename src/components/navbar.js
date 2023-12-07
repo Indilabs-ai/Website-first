@@ -1,10 +1,33 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { NavLink } from "react-router-dom";
+import { Link } from 'react-scroll';
+
 
 const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
+
+  const closeMobileMenu = () => setShowMediaIcons(false);
+
+  const handleClickOutside = (event) => {
+    if (showMediaIcons && !document.querySelector(".main-nav").contains(event.target)) {
+      closeMobileMenu();
+    }
+  };
+
+  useEffect(() => {
+    // Adding click event listener
+    if (showMediaIcons) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
+
+    // Cleanup function to remove event listener
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [showMediaIcons]); // Dependency array ensures effect runs only when showMediaIcons changes
+
   return (
     <>
       <nav className="main-nav">
@@ -21,19 +44,19 @@ const Navbar = () => {
         >
           <ul>
             <li>
-              <NavLink to="/">Home</NavLink>
+              <Link to="home" smooth={true} onClick={closeMobileMenu}>Home</Link>
             </li>
             <li>
-              <NavLink to="/about">About</NavLink>
+              <Link to="about" smooth={true} onClick={closeMobileMenu}>About</Link>
             </li>
             <li>
-              <NavLink to="/service">Services</NavLink>
+              <Link to="our-product" smooth={true} onClick={closeMobileMenu}>Our Product</Link>
             </li>
             <li>
-              <NavLink to="/features">Features</NavLink>
+              <Link to="features" smooth={true} onClick={closeMobileMenu}>Features</Link>
             </li>
             <li>
-              <NavLink to="/contact"><button>Contact Us</button></NavLink>
+              <Link to="contact" smooth={true} onClick={closeMobileMenu}><button>Contact Us</button></Link>
             </li>
           </ul>
         </div>
