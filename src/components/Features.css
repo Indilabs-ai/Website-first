@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main {
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f5f5;
+  height: 600px;
+}
+.main .top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0 40px; */
+  margin: auto;
+  width: 85%;
+}
+.main .top .topleft {
+  text-align: left;
+}
+.main .top .topleft h1 {
+  font-weight: 600px;
+  color: #ac2631;
+  font-size: 50px;
+}
+.main .top .carousel-arrows button{
+  font-size: 2rem;
+  border: none;
+  border-radius: 100%;
+  background-color: transparent;
+  -webkit-box-shadow: -1px 1px 10px 1px rgba(209,209,209,0.49);
+-moz-box-shadow: -1px 1px 10px 1px rgba(209,209,209,0.49);
+box-shadow: -1px 1px 10px 1px rgba(209,209,209,0.49);
+}
+.main .top .carousel-arrows .prev{
+  margin-right: 10px;
+}
+
+@media (max-width: 800px) {
+  .main .top {
+    flex-direction: column;
+  }
+  .main .top{
+    position: relative;
+  }
+  .main .top .carousel-arrows{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    margin-right: 0;
+  }
+}
+
+.main .maincard{
+  /* background-color: #ac2631; */
+  
+}
+.main .maincard .card{
+  margin: auto;
+  width: 85%;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  background-color: white;
+}
+.main .maincard .card button{
+  padding: 6px 14px;
+  border-radius: 10px;
+  border: none;
+  color: red;
+  background-color: rgba(255, 168, 168, 0.437);
+}
+.main .maincard .card h1{
+  font-size: xx-large;
+  font-weight: 600;
+}
+.main .maincard .card p{
+  font-size:medium;
+}
+.slick-dots li button{
+  
+}
+
+.red-section{
+  background-color: #FDEEEE;
+  height: 200px;
+}
+
+/* DD4651 dots wala color carousel ke
+FDEEEE ye wo neeche wale div ka transparent rakhna usko light thoda
+F5F5F5 ye greyish features section ka bg */

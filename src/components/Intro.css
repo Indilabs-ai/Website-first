@@ -17,7 +17,7 @@
 .intro-subtitle{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    width: 900px;
+    width: 200px;
     text-align: center;
     font-size: 28px;
     margin-top: 55px;
@@ -26,7 +26,6 @@
 
 .intro-desc{
     font-family: 'Poppins', sans-serif;
-    width: 890px;
     font-weight: 400;
     text-align: center;
     color: rgb(96, 96, 96);
