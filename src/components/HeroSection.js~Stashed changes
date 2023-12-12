@@ -4,7 +4,7 @@ import "./HeroSection.css";
 const HeroSection = () => {
   return (
     <>
-      <div id='home' className="container">
+      <div className="container">
         <div className="box-1">
           <div className="title-box">
             <p className="title">The Business Of Lending Is Transforming.</p>
