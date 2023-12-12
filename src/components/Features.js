@@ -49,8 +49,7 @@ const Features = () => {
           <div className="topleft">
             <h1>Features</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere,
-              ducimus!
+            A Glimpse Into Our Features: Precision, Intuitiveness, Risk Management, and Dynamic Strategies
             </p>
           </div>
           <div className="carousel-arrows">
@@ -69,61 +68,44 @@ const Features = () => {
           {/* Replace the following URLs with your image URLs */}
           <div className="maincard">
             <div className="card">
-              <button>Lorem, ipsum.</button>
-              <h1>This is Heading</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
-                aliquam eveniet vitae exercitationem laborum quam, fuga sapiente
-                fugit architecto ducimus voluptas sunt obcaecati facilis officia
-                ad impedit. Facilis, veritatis quia.
+              <button className="c1">Guardian</button>
+              <h2>End-to-end risk mitigation</h2>
+              <p className="c1p">
+              Seamless risk management through comprehensive strategies, integrating external data via APIs, ensuring banking clients and investors experience robust risk mitigation throughout the collection process </p>
+            </div>
+          </div>
+          <div className="maincard">
+            <div className="card">
+              <button className="c2">Simplified</button>
+              <h2>Intuitive, user-friendly UI</h2>
+              <p className="c2p">
+              Offering an intuitive and user-friendly interface for seamless navigation, ensuring a positive and stress-free experience for banking clients and investors managing their financial strategies.
               </p>
             </div>
           </div>
           <div className="maincard">
             <div className="card">
-              <button>Lorem, ipsum.</button>
-              <h1>This is Heading</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
-                aliquam eveniet vitae exercitationem laborum quam, fuga sapiente
-                fugit architecto ducimus voluptas sunt obcaecati facilis officia
-                ad impedit. Facilis, veritatis quia.
+              <button className="c3">Automated</button>
+              <h2>AI-assisted platform</h2>
+              <p className="c3p">
+              Harnessing the power of artificial intelligence to provide intelligent insights, automating processes, and delivering tailored financial solutions for banking clients and investors seeking cutting-edge technology.
               </p>
             </div>
           </div>
           <div className="maincard">
             <div className="card">
-              <button>Lorem, ipsum.</button>
-              <h1>This is Heading</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
-                aliquam eveniet vitae exercitationem laborum quam, fuga sapiente
-                fugit architecto ducimus voluptas sunt obcaecati facilis officia
-                ad impedit. Facilis, veritatis quia.
+              <button className="c4">Adaptive</button>
+              <h2>Dynamic Strategies</h2>
+              <p className="c4p">Tailoring dynamic strategies that adapt to the unique characteristics of each client's portfolio, providing personalized solutions for banking clients and investors seeking flexibility and responsiveness in their financial strategies.
               </p>
             </div>
           </div>
           <div className="maincard">
             <div className="card">
-              <button>Lorem, ipsum.</button>
-              <h1>This is Heading</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
-                aliquam eveniet vitae exercitationem laborum quam, fuga sapiente
-                fugit architecto ducimus voluptas sunt obcaecati facilis officia
-                ad impedit. Facilis, veritatis quia.
-              </p>
-            </div>
-          </div>
-          <div className="maincard">
-            <div className="card">
-              <button>Lorem, ipsum.</button>
-              <h1>This is Heading</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
-                aliquam eveniet vitae exercitationem laborum quam, fuga sapiente
-                fugit architecto ducimus voluptas sunt obcaecati facilis officia
-                ad impedit. Facilis, veritatis quia.
+              <button className="c5">Streamlined</button>
+              <h2>High Speed Architecture</h2>
+              <p className="c5p">
+              Swiftly process multiple data sources for banking clients and investors, ensuring unparalleled speed and responsiveness in decision-making. Elevate your financial strategies with real-time insights.
               </p>
             </div>
           </div>

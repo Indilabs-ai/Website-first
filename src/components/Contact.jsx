@@ -49,7 +49,7 @@ const Contact = () => {
               </div>
             </form>
           </div>
-// =======
+{/* // =======
 //         <div className='contact-wrapper'>
 //             <div className='contact-container'>
 //                 <div className='contact-content'>
@@ -65,7 +65,7 @@ const Contact = () => {
 //                   </form>
 //                 </div>
 //             </div>
-// >>>>>>> main
+// >>>>>>> main */}
         </div>
       </div>
 
