@@ -44,19 +44,19 @@ const Navbar = () => {
         >
           <ul>
             <li>
-              <Link to="home" smooth={true} onClick={closeMobileMenu}>Home</Link>
+              <Link to="home" smooth={true} duration={800} onClick={closeMobileMenu}>Home</Link>
             </li>
             <li>
-              <Link to="about" smooth={true} onClick={closeMobileMenu}>About</Link>
+              <Link to="about" smooth={true} duration={800} onClick={closeMobileMenu}>About</Link>
             </li>
             <li>
-              <Link to="our-product" smooth={true} onClick={closeMobileMenu}>Our Product</Link>
+              <Link to="our-product" smooth={true} duration={800} onClick={closeMobileMenu}>Our Product</Link>
             </li>
             <li>
-              <Link to="features" smooth={true} onClick={closeMobileMenu}>Features</Link>
+              <Link to="features" smooth={true} duration={800} onClick={closeMobileMenu}>Features</Link>
             </li>
             <li>
-              <Link to="contact" smooth={true} onClick={closeMobileMenu}><button>Contact Us</button></Link>
+              <Link to="contact" smooth={true} duration={800} onClick={closeMobileMenu}><button>Contact Us</button></Link>
             </li>
           </ul>
         </div>
