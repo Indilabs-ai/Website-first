@@ -44,7 +44,7 @@ const Features = () => {
 
   return (
     <>
-      <div className="main">
+      <div id="features" className="main">
         <div className="top">
           <div className="topleft">
             <h1>Features</h1>

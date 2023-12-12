@@ -1,5 +1,6 @@
 import React from "react";
 import "./HeroSection.css";
+import { Link } from 'react-scroll';
 
 const HeroSection = () => {
   return (
@@ -12,7 +13,7 @@ const HeroSection = () => {
               Are your Collections capabilities keeping up?
             </p>
             <div className="title-button">
-            <button>Get Started</button>
+            <button><Link to="contact" smooth={true} duration={800}>Get Started</Link></button>
             </div>
           </div>
         </div>
