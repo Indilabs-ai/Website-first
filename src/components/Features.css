@@ -42,7 +42,7 @@
 .main {
   font-family: "Poppins", sans-serif;
   background-color: #f5f5f5;
-  height: 600px;
+  height: 500px;
 }
 .main .top {
   display: flex;
@@ -59,19 +59,37 @@
 .main .top .topleft h1 {
   font-weight: 600px;
   color: #ac2631;
-  font-size: 50px;
+  font-size: 40px;
+  padding-top: 40px;
 }
+
+.main .top .topleft p {
+  font-weight: 600px;
+  color: #525252;
+  font-size: 14px;
+}
+
 .main .top .carousel-arrows button{
   font-size: 2rem;
   border: none;
   border-radius: 100%;
   background-color: transparent;
+  width: 4.2rem;
   -webkit-box-shadow: -1px 1px 10px 1px rgba(209,209,209,0.49);
 -moz-box-shadow: -1px 1px 10px 1px rgba(209,209,209,0.49);
-box-shadow: -1px 1px 10px 1px rgba(209,209,209,0.49);
+box-shadow: -1px 1px 10px 1px rgba(175, 175, 175, 0.49);
 }
 .main .top .carousel-arrows .prev{
   margin-right: 10px;
+  padding-top: 9px;
+  align-items: center;
+justify-content: center;
+}
+
+.main .top .carousel-arrows .next{
+  padding-top: 9px;
+  align-items: center;
+justify-content: center;
 }
 
 @media (max-width: 800px) {
@@ -105,15 +123,52 @@ box-shadow: -1px 1px 10px 1px rgba(209,209,209,0.49);
   padding: 6px 14px;
   border-radius: 10px;
   border: none;
+}
+
+.c1{
   color: red;
   background-color: rgba(255, 168, 168, 0.437);
 }
-.main .maincard .card h1{
-  font-size: xx-large;
+
+.c2{
+  color: #B000DC;
+  background-color: rgba(241, 168, 255, 0.395);
+}
+
+.c3{
+  color: #0CBE64;
+  background-color: rgba(95, 232, 170, 0.447);
+}
+
+.c4{
+  color: #0058DC;
+  background-color: rgba(168, 181, 255, 0.437);
+}
+
+.c5{
+  color: rgb(212, 106, 0);
+  background-color: rgba(255, 146, 29, 0.437);
+}
+
+
+
+.c2p{
+  padding-bottom: 18px;
+}
+.c5p{
+  padding-bottom: 19px;
+}
+
+
+.main .maincard .card h2{
+  padding-top: 10px;
+  font-size: 18px;
   font-weight: 600;
 }
 .main .maincard .card p{
-  font-size:medium;
+  padding-top: 10px; 
+  font-size:12px;
+  color: #525252;
 }
 .slick-dots li button{
   
