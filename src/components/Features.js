@@ -132,7 +132,7 @@ const Features = () => {
 
         
       </div>
-      <div className="red-section "></div>
+      {/* <div className="red-section "></div> */}
     </>
     
   );

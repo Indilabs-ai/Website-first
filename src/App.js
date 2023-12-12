@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HeroSection from './components/HeroSection';
 import Intro from './components/Intro';
 import Features from './components/Features';
+import Infinitecarousel from './components/Infintecarousel';
 
 const Home = () => {
   return (
@@ -70,6 +71,7 @@ const App = () => {
       </Routes>
       <About />
       <Features/>
+      <Infinitecarousel />
       <Founder />
       <Contact />
       <Footer />
