@@ -1,5 +1,5 @@
 .slider-outbox {
-  background-color: #FDEEEE;
+  background-color: #fdeeee;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,7 +8,7 @@
 .sliderbox {
   height: 300px;
   width: 60%;
-  background-color: #FDEEEE;
+  background-color: #fdeeee;
   position: relative;
 }
 
@@ -62,14 +62,12 @@
   display: none !important;
 }
 
-
 .slick-slider {
   transition: transform 0.5s linear !important; /* Adjust the transition duration as needed */
 }
 
 .slider {
   width: 70%;
-  
 }
 
 .img-scroll {
@@ -80,84 +78,104 @@
 
 /* ~~~~~~~~~~RESPONSIVE~~~~~~~~~~ */
 
-@media(max-width: 1920px) {
+@media (max-width: 1920px) {
   .sliderbox {
     height: 300px;
     width: 70%;
-    background-color: #FDEEEE;
+    background-color: #fdeeee;
     position: relative;
   }
 }
 
-@media(max-width: 1600px) {
+@media (max-width: 1750px) {
   .sliderbox {
-    height: 300px;
-    width: 60%;
-    background-color: #FDEEEE;
-    position: relative;
-  }
-}
-
-@media(max-width: 1500px) {
-  .sliderbox {
-    height: 300px;
-    width: 50%;
-    background-color: #FDEEEE;
-    position: relative;
-  }
-}
-
-@media(max-width: 1300px) {
-  .sliderbox {
-    height: 300px;
-    width: 50% !important;
-    background-color: #FDEEEE;
+    height: 250px;
+    width: 65%;
+    background-color: #fdeeee;
     position: relative;
   }
 
   .img-scroll {
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
   }
 }
 
-@media(max-width: 1250px) {
+@media (max-width: 1600px) {
   .sliderbox {
-    height: 300px;
-    width: 50% !important;
-    background-color: #FDEEEE;
-    position: relative;
-  }
-}
-
-@media(max-width: 1200px) {
-  .sliderbox {
-    height: 300px;
-    width: 55% !important;
-    background-color: #FDEEEE;
-    position: relative;
-  }
-}
-
-@media(max-width: 1080px) {
-  .sliderbox {
-    height: 300px;
-    width: 60% !important;
-    background-color: #FDEEEE;
+    height: 250px;
+    width: 70%;
+    background-color: #fdeeee;
     position: relative;
   }
 
   .img-scroll {
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
   }
 }
 
-@media(max-width: 992px) {
+@media (max-width: 1500px) {
   .sliderbox {
-    height: 300px;
+    height: 250px;
+    width: 75%;
+    background-color: #fdeeee;
+    position: relative;
+  }
+
+  .img-scroll {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .sliderbox {
+    height: 250px;
+    width: 80% !important;
+    background-color: #fdeeee;
+    position: relative;
+  }
+
+  .img-scroll {
+    height: 110px;
+    width: 110px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .sliderbox {
+    height: 220px;
+    width: 85% !important;
+    background-color: #fdeeee;
+    position: relative;
+  }
+
+  .img-scroll {
+    height: 110px;
+    width: 110px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .sliderbox {
+    height: 220px;
+    width: 90% !important;
+    background-color: #fdeeee;
+    position: relative;
+  }
+
+  .img-scroll {
+    height: 110px;
+    width: 110px;
+  }
+}
+
+@media (max-width: 992px) {
+  .sliderbox {
+    height: 270px;
     width: 65% !important;
-    background-color: #FDEEEE;
+    background-color: #fdeeee;
     position: relative;
   }
 
@@ -167,11 +185,11 @@
   }
 }
 
-@media(max-width: 900px) {
+@media (max-width: 900px) {
   .sliderbox {
-    height: 300px;
+    height: 270px;
     width: 70% !important;
-    background-color: #FDEEEE;
+    background-color: #fdeeee;
     position: relative;
   }
 
@@ -181,11 +199,11 @@
   }
 }
 
-@media(max-width: 820px) {
+@media (max-width: 820px) {
   .sliderbox {
-    height: 300px;
+    height: 250px;
     width: 75% !important;
-    background-color: #FDEEEE;
+    background-color: #fdeeee;
     position: relative;
   }
 
@@ -195,11 +213,11 @@
   }
 }
 
-@media(max-width: 750px) {
+@media (max-width: 750px) {
   .sliderbox {
-    height: 300px;
+    height: 190px;
     width: 100% !important;
-    background-color: #FDEEEE;
+    background-color: #fdeeee;
     position: relative;
   }
 
@@ -209,11 +227,11 @@
   }
 }
 
-@media(max-width: 610px) {
+@media (max-width: 610px) {
   .sliderbox {
-    height: 300px;
+    height: 180px;
     width: 100% !important;
-    background-color: #FDEEEE;
+    background-color: #fdeeee;
     position: relative;
   }
 
@@ -223,11 +241,11 @@
   }
 }
 
-@media(max-width: 576px) {
+@media (max-width: 576px) {
   .sliderbox {
-    height: 300px;
+    height: 160px;
     width: 80% !important;
-    background-color: #FDEEEE;
+    background-color: #fdeeee;
     position: relative;
   }
 
@@ -237,11 +255,11 @@
   }
 }
 
-@media(max-width: 526px) {
+@media (max-width: 526px) {
   .sliderbox {
-    height: 300px;
+    height: 160px;
     width: 90% !important;
-    background-color: #FDEEEE;
+    background-color: #fdeeee;
     position: relative;
   }
 
@@ -251,11 +269,11 @@
   }
 }
 
-@media(max-width: 465px) {
+@media (max-width: 465px) {
   .sliderbox {
-    height: 300px;
+    height: 160px;
     width: 100% !important;
-    background-color: #FDEEEE;
+    background-color: #fdeeee;
     position: relative;
   }
 
@@ -265,11 +283,11 @@
   }
 }
 
-@media(max-width: 440px) {
+@media (max-width: 440px) {
   .sliderbox {
-    height: 300px;
+    height: 160px;
     width: 100% !important;
-    background-color: #FDEEEE;
+    background-color: #fdeeee;
     position: relative;
   }
 
@@ -279,11 +297,11 @@
   }
 }
 
-@media(max-width: 410px) {
+@media (max-width: 410px) {
   .sliderbox {
-    height: 300px;
+    height: 150px;
     width: 80% !important;
-    background-color: #FDEEEE;
+    background-color: #fdeeee;
     position: relative;
   }
 
@@ -293,11 +311,11 @@
   }
 }
 
-@media(max-width: 400px) {
+@media (max-width: 400px) {
   .sliderbox {
-    height: 300px;
+    height: 150px;
     width: 100% !important;
-    background-color: #FDEEEE;
+    background-color: #fdeeee;
     position: relative;
   }
 
@@ -307,11 +325,11 @@
   }
 }
 
-@media(max-width: 380px) {
+@media (max-width: 380px) {
   .sliderbox {
-    height: 300px;
+    height: 150px;
     width: 100% !important;
-    background-color: #FDEEEE;
+    background-color: #fdeeee;
     position: relative;
   }
 
@@ -321,11 +339,11 @@
   }
 }
 
-@media(max-width: 311px) {
+@media (max-width: 311px) {
   .sliderbox {
-    height: 300px;
+    height: 120px;
     width: 100% !important;
-    background-color: #FDEEEE;
+    background-color: #fdeeee;
     position: relative;
   }
 

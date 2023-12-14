@@ -49,7 +49,6 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  /* padding: 0 40px; */
   margin: auto;
   width: 85%;
 }
@@ -69,37 +68,52 @@
   font-size: 14px;
 }
 
-.main .top .carousel-arrows button{
+.main .top .carousel-arrows button {
   font-size: 2rem;
   border: none;
   border-radius: 100%;
   background-color: transparent;
   width: 4.2rem;
-  -webkit-box-shadow: -1px 1px 10px 1px rgba(209,209,209,0.49);
--moz-box-shadow: -1px 1px 10px 1px rgba(209,209,209,0.49);
-box-shadow: -1px 1px 10px 1px rgba(175, 175, 175, 0.49);
+  -webkit-box-shadow: -1px 1px 10px 1px rgba(209, 209, 209, 0.49);
+  -moz-box-shadow: -1px 1px 10px 1px rgba(209, 209, 209, 0.49);
+  box-shadow: -1px 1px 10px 1px rgba(175, 175, 175, 0.49);
+  cursor: pointer;
 }
-.main .top .carousel-arrows .prev{
+
+.main .top .carousel-arrows button:hover {
+  transition: 0.75s;
+  background-color: #b0b0b0;
+}
+
+.main .top .carousel-arrows button:active {
+  background-color: #525252;
+}
+.main .top .carousel-arrows .prev {
   margin-right: 10px;
   padding-top: 9px;
   align-items: center;
-justify-content: center;
+  justify-content: center;
 }
 
-.main .top .carousel-arrows .next{
+.main .top .carousel-arrows .next {
   padding-top: 9px;
   align-items: center;
-justify-content: center;
+  justify-content: center;
+}
+
+.slick-list {
+  margin-top: 20px !important;
+  padding-bottom: 10px !important;
 }
 
 @media (max-width: 800px) {
   .main .top {
     flex-direction: column;
   }
-  .main .top{
+  .main .top {
     position: relative;
   }
-  .main .top .carousel-arrows{
+  .main .top .carousel-arrows {
     position: absolute;
     top: 30px;
     right: 0;
@@ -107,11 +121,12 @@ justify-content: center;
   }
 }
 
-.main .maincard{
-  /* background-color: #ac2631; */
-  
-}
-.main .maincard .card{
+/* 
+.main .maincard {
+  background-color: #ac2631;
+} */
+
+.main .maincard .card {
   margin: auto;
   width: 85%;
   padding: 20px;
@@ -119,64 +134,56 @@ justify-content: center;
   text-align: left;
   background-color: white;
 }
-.main .maincard .card button{
+.main .maincard .card button {
   padding: 6px 14px;
   border-radius: 10px;
   border: none;
 }
 
-.c1{
+.c1 {
   color: red;
   background-color: rgba(255, 168, 168, 0.437);
 }
 
-.c2{
-  color: #B000DC;
+.c2 {
+  color: #b000dc;
   background-color: rgba(241, 168, 255, 0.395);
 }
 
-.c3{
-  color: #0CBE64;
+.c3 {
+  color: #0cbe64;
   background-color: rgba(95, 232, 170, 0.447);
 }
 
-.c4{
-  color: #0058DC;
+.c4 {
+  color: #0058dc;
   background-color: rgba(168, 181, 255, 0.437);
 }
 
-.c5{
+.c5 {
   color: rgb(212, 106, 0);
   background-color: rgba(255, 146, 29, 0.437);
 }
 
-
-
-.c2p{
+.c2p {
   padding-bottom: 18px;
 }
-.c5p{
+.c5p {
   padding-bottom: 19px;
 }
 
-
-.main .maincard .card h2{
+.main .maincard .card h2 {
   padding-top: 10px;
   font-size: 18px;
   font-weight: 600;
 }
-.main .maincard .card p{
-  padding-top: 10px; 
-  font-size:12px;
+.main .maincard .card p {
+  padding-top: 10px;
+  font-size: 12px;
   color: #525252;
 }
 
-
-.red-section{
-  background-color: #FDEEEE;
+.red-section {
+  background-color: #fdeeee;
   height: 200px;
 }
-
-/* DD4651 dots wala color carousel ke
-FDEEEE ye wo neeche wale div ka transparent rakhna usko light thoda
-F5F5F5 ye greyish features section ka bg */
