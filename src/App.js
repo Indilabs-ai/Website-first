@@ -13,6 +13,7 @@ import Intro from "./components/Intro";
 import Features from "./components/Features";
 import Infinitecarousel from "./components/Infintecarousel";
 import PrivacyPolicy from "./components/PrivacyPolicy";
+import FooterPrivacyPolicy from "./components/FooterPrivacyPolicy";
 
 
 
@@ -47,7 +48,7 @@ const PrivacyPolicyNav = () => {
     <>
       {/* <Navbar/> */}
       <PrivacyPolicy/>
-      {/* <Footer/> */}
+      <FooterPrivacyPolicy/>
     </>
   );
 };

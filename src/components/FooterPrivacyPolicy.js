@@ -3,12 +3,7 @@ import "../App.css";
 import { Link } from "react-scroll";
 import { Link as RouterLink } from "react-router-dom";
 
-import { Facebook } from "lucide-react";
-import { Instagram } from "lucide-react";
-import { FaXTwitter } from "react-icons/fa6";
-import { Linkedin } from "lucide-react";
-
-const Footer = () => {
+const FooterPrivacyPolicy = () => {
   return (
     <>
       <div id="footer" className="footer-wrapper">
@@ -27,24 +22,22 @@ const Footer = () => {
           {/* <p className='footer-about-mail'>info@indilabs.ai</p> */}
         </div>
         <div className="footer-nav-about">
-          <Link
-            to="about"
-            smooth={true}
-            duration={800}
-          >
-            <p className="footer-nav-heading">About Us</p>
-          </Link>
-          <ul className="footer-nav-content">
-            <li>
-              <Link to="our-product" smooth={true} duration={800}>Our Product</Link>
+          <a href="/">
+            <p className="footer-nav-heading">Home</p>
+          </a>
+          <ul>
+          <li style={{ paddingTop: "15px" }}>
+              <a href="mailto:info@indilabs.ai" className="email-link">
+                info@indilabs.ai
+              </a>
             </li>
             <li>
-              <Link to="features" smooth={true} duration={800}>Features</Link>
+              <p>
+                <a href="tel:+919618111778" className="phone-link">
+                  +91 9618111778
+                </a>
+              </p>
             </li>
-            <li>
-              <a href="/privacy-policy" className="footer-nav-link">Privacy Policy</a>
-            </li>
-            {/* <li>Contact us</li> */}
           </ul>
         </div>
         <div className="footer-nav-about">
@@ -54,13 +47,7 @@ const Footer = () => {
               Have questions or inquiries? Reach out to us for assistance and
               support.
             </li>
-            <li style={{ paddingTop: "15px" }}>
-              <a href="mailto:info@indilabs.ai" className="email-link">info@indilabs.ai</a>
-
-            </li>
-            <li>
-              <p><a href="tel:+919618111778" className="phone-link">+91 9618111778</a></p>
-            </li>
+            
           </ul>
         </div>
         <div className="footer-nav-social">
@@ -86,7 +73,6 @@ const Footer = () => {
           >
             <img src="./img/linkedin-bnw.png" className="linkedin"></img>
           </a>
-
         </div>
       </div>
       <div className="footer-copyright">
@@ -96,4 +82,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default FooterPrivacyPolicy;
