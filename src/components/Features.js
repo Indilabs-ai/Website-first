@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import '../App.css';
+import "../App.css";
 import "./Features.css";
 import "boxicons";
 
@@ -16,8 +16,8 @@ const Features = () => {
     slidesToScroll: 1,
     arrows: false,
     dots: true,
-    centerMode: true, // for setting overflow
-    centerPadding: "50px", // Afor setting overflow
+    centerMode: true,
+    centerPadding: "50px",
     responsive: [
       {
         breakpoint: 1024,
@@ -44,12 +44,13 @@ const Features = () => {
 
   return (
     <>
-      <div className="main">
+      <div id="features" className="main">
         <div className="top">
           <div className="topleft">
             <h1>Features</h1>
             <p>
-            A Glimpse Into Our Features: Precision, Intuitiveness, Risk Management, and Dynamic Strategies
+              What makes Riko a category defining solution: Precision,
+              Intuitiveness, Risk Management, and Dynamic Strategies
             </p>
           </div>
           <div className="carousel-arrows">
@@ -69,9 +70,12 @@ const Features = () => {
           <div className="maincard">
             <div className="card">
               <button className="c1">Guardian</button>
-              <h2>End-to-end risk mitigation</h2>
+              <h2>Highly Secure Infrastructure</h2>
               <p className="c1p">
-              Seamless risk management through comprehensive strategies, integrating external data via APIs, ensuring banking clients and investors experience robust risk mitigation throughout the collection process </p>
+                Secure infrastructure that ensures integrity and confidentiality
+                of data, providing a reliable and resilient foundation for
+                seamless operations.{" "}
+              </p>
             </div>
           </div>
           <div className="maincard">
@@ -79,7 +83,8 @@ const Features = () => {
               <button className="c2">Simplified</button>
               <h2>Intuitive, user-friendly UI</h2>
               <p className="c2p">
-              Offering an intuitive and user-friendly interface for seamless navigation, ensuring a positive and stress-free experience for banking clients and investors managing their financial strategies.
+                Expert designed interface for monitoring risks, simulating
+                multiple scenarios and testing new strategies on the go.
               </p>
             </div>
           </div>
@@ -88,7 +93,8 @@ const Features = () => {
               <button className="c3">Automated</button>
               <h2>AI-assisted platform</h2>
               <p className="c3p">
-              Harnessing the power of artificial intelligence to provide intelligent insights, automating processes, and delivering tailored financial solutions for banking clients and investors seeking cutting-edge technology.
+                Seamless risk management through comprehensive strategies and
+                leveraging AI/ML to drive optimal decisions at the right time.
               </p>
             </div>
           </div>
@@ -96,27 +102,26 @@ const Features = () => {
             <div className="card">
               <button className="c4">Adaptive</button>
               <h2>Dynamic Strategies</h2>
-              <p className="c4p">Tailoring dynamic strategies that adapt to the unique characteristics of each client's portfolio, providing personalized solutions for banking clients and investors seeking flexibility and responsiveness in their financial strategies.
+              <p className="c4p">
+                algorithms to tailor dynamic strategies that adapt to the unique
+                risk characteristics of each client's portfolio and customers.
               </p>
             </div>
           </div>
           <div className="maincard">
             <div className="card">
-              <button className="c5">Streamlined</button>
-              <h2>High Speed Architecture</h2>
+              <button className="c5">Optimization</button>
+              <h2>End to End Risk Mitigation</h2>
               <p className="c5p">
-              Swiftly process multiple data sources for banking clients and investors, ensuring unparalleled speed and responsiveness in decision-making. Elevate your financial strategies with real-time insights.
+                Seamless risk management through comprehensive strategies and
+                leveraging AI/ML to drive optimal decisions at the right time.
               </p>
             </div>
           </div>
         </Slider>
-
-
-        
       </div>
-      <div className="red-section "></div>
+      {/* <div className="red-section "></div> */}
     </>
-    
   );
 };
 
