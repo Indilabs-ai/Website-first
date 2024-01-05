@@ -1,10 +1,13 @@
 import React from "react";
 import "../App.css";
 import { Link } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
+
 import { Facebook } from "lucide-react";
 import { Instagram } from "lucide-react";
 import { FaXTwitter } from "react-icons/fa6";
 import { Linkedin } from "lucide-react";
+
 const Footer = () => {
   return (
     <>
@@ -24,32 +27,46 @@ const Footer = () => {
           {/* <p className='footer-about-mail'>info@indilabs.ai</p> */}
         </div>
         <div className="footer-nav-about">
-          <p className="footer-nav-heading">About Us</p>
+          <Link
+            to="about"
+            smooth={true}
+            duration={800}
+          >
+            <p className="footer-nav-heading">About Us</p>
+          </Link>
           <ul className="footer-nav-content">
             <li>
-              <Link>Our Product</Link>
+              <Link to="our-product" smooth={true} duration={800}>Our Product</Link>
             </li>
             <li>
-              <Link>Features</Link>
+              <Link to="features" smooth={true} duration={800}>Features</Link>
             </li>
             <li>
-              <Link>Privacy Policy</Link>
+              <RouterLink to="/privacy-policy">Privacy Policy</RouterLink>
+
             </li>
             {/* <li>Contact us</li> */}
           </ul>
         </div>
         <div className="footer-nav-about">
-          <p className="footer-nav-heading">Contact us</p>
+          <p className="footer-nav-heading contact-heading">Contact us</p>
           <ul className="footer-nav-content">
-            <li>
+            <li className="contact-info">
               Have questions or inquiries? Reach out to us for assistance and
               support.
             </li>
-            <li style={{ paddingTop: "15px" }}>info@indilabs.ai</li>
+            <li style={{ paddingTop: "15px" }}>
+              <a href="mailto:info@indilabs.ai" className="email-link">info@indilabs.ai</a>
+
+            </li>
+            <li>
+              <p><a href="tel:+919618111778" className="phone-link">+91 9618111778</a></p>
+            </li>
           </ul>
         </div>
         <div className="footer-nav-social">
-          <div className="social-media">
+          {/* <div className="social-media">
+
             <div className="social-icon">
               <Facebook />
             </div>
@@ -62,7 +79,15 @@ const Footer = () => {
             <div className="social-icon">
               <Linkedin />
             </div>
-          </div>
+          </div> */}
+          <a
+            href="https://www.linkedin.com/company/indilabs-ai/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./img/linkedin-bnw.png" className="linkedin"></img>
+          </a>
+
         </div>
       </div>
       <div className="footer-copyright">

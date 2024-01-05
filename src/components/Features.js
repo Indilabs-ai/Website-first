@@ -72,10 +72,9 @@ const Features = () => {
               <button className="c1">Guardian</button>
               <h2>End-to-end risk mitigation</h2>
               <p className="c1p">
-                Seamless risk management through comprehensive strategies,
-                integrating external data via APIs, ensuring banking clients and
-                investors experience robust risk mitigation throughout the
-                collection process{" "}
+                Seamless risk management through comprehensive strategies and
+                leveraging AI/ML to drive optimal decisions at the right time.{" "}
+
               </p>
             </div>
           </div>
@@ -84,22 +83,21 @@ const Features = () => {
               <button className="c2">Simplified</button>
               <h2>Intuitive, user-friendly UI</h2>
               <p className="c2p">
-                Offering an intuitive and user-friendly interface for seamless
-                navigation, ensuring a positive and stress-free experience for
-                banking clients and investors managing their financial
-                strategies.
+                Expert designed interface for monitoring risks, simulating
+                multiple scenarios and testing new strategies on the go.
+                
+
               </p>
             </div>
           </div>
           <div className="maincard">
             <div className="card">
-              <button className="c3">Automated</button>
-              <h2>AI-assisted platform</h2>
+              <button className="c3">Intelligence</button>
+              <h2>Decision science powered</h2>
               <p className="c3p">
-                Harnessing the power of artificial intelligence to provide
-                intelligent insights, automating processes, and delivering
-                tailored financial solutions for banking clients and investors
-                seeking cutting-edge technology.
+                Harnessing the power of data science algorithms and AI to drive
+                insights, strategies and execution across the credit cycle.
+
               </p>
             </div>
           </div>
@@ -108,22 +106,21 @@ const Features = () => {
               <button className="c4">Adaptive</button>
               <h2>Dynamic Strategies</h2>
               <p className="c4p">
-                Tailoring dynamic strategies that adapt to the unique
-                characteristics of each client's portfolio, providing
-                personalized solutions for banking clients and investors seeking
-                flexibility and responsiveness in their financial strategies.
+                Algorithms to tailor dynamic strategies that adapt to the unique
+                risk characteristics of each client's portfolio and customers.
+
               </p>
             </div>
           </div>
           <div className="maincard">
             <div className="card">
-              <button className="c5">Streamlined</button>
-              <h2>High Speed Architecture</h2>
+              <button className="c5">Security</button>
+              <h2>Secure Infrastructure</h2>
               <p className="c5p">
-                Swiftly process multiple data sources for banking clients and
-                investors, ensuring unparalleled speed and responsiveness in
-                decision-making. Elevate your financial strategies with
-                real-time insights.
+                Secure infrastructure that ensures integrity and confidentiality
+                of data, providing a reliable and resilient foundation for
+                seamless operations.
+
               </p>
             </div>
           </div>
