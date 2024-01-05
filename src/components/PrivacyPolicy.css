@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 .App {
   text-align: center;
@@ -136,6 +136,9 @@ h5{
   font-weight: 400;
 }
 p{
+  font-size: large ;
+}
+li{
   font-size: large;
 }
 @media(max-width:350px){
@@ -172,4 +175,4 @@ p{
     gap: 0;
   }
   
-}
+} */
