@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-bottom: black 1px solid;
+  /* border-bottom: black 1px solid; */
 }
 
 .intro-title {

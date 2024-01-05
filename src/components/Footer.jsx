@@ -42,8 +42,7 @@ const Footer = () => {
               <Link to="features" smooth={true} duration={800}>Features</Link>
             </li>
             <li>
-              <RouterLink to="/privacy-policy">Privacy Policy</RouterLink>
-
+              <a href="/privacy-policy">Privacy Policy</a>
             </li>
             {/* <li>Contact us</li> */}
           </ul>

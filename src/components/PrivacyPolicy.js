@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 import "./PrivacyPolicy.css";
 
 const PrivacyPolicy = () => {
@@ -12,7 +12,7 @@ const PrivacyPolicy = () => {
               src="https://www.indilabs.ai/wp-content/uploads/2023/01/Logo-white-Vector.png"
               alt="logo"
             />
-            <button>Home</button>
+            <a href="/"><button>Home</button></a>
           </div>
           <div className="email">
             <box-icon name="envelope" className="emaillogo"></box-icon>
@@ -468,8 +468,8 @@ const PrivacyPolicy = () => {
             </ul>
           </div>
         </div>
-        
-        <Footer />
+{/*         
+        <Footer /> */}
       </div>
     </>
   );
