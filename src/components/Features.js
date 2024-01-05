@@ -49,8 +49,8 @@ const Features = () => {
           <div className="topleft">
             <h1>Features</h1>
             <p>
-              A Glimpse Into Our Features: Precision, Intuitiveness, Risk
-              Management, and Dynamic Strategies
+              What makes Riko a category defining solution: Precision,
+              Intuitiveness, Risk Management, and Dynamic Strategies
             </p>
           </div>
           <div className="carousel-arrows">
@@ -70,11 +70,11 @@ const Features = () => {
           <div className="maincard">
             <div className="card">
               <button className="c1">Guardian</button>
-              <h2>End-to-end risk mitigation</h2>
+              <h2>Highly Secure Infrastructure</h2>
               <p className="c1p">
-                Seamless risk management through comprehensive strategies and
-                leveraging AI/ML to drive optimal decisions at the right time.{" "}
-
+                Secure infrastructure that ensures integrity and confidentiality
+                of data, providing a reliable and resilient foundation for
+                seamless operations.{" "}
               </p>
             </div>
           </div>
@@ -85,7 +85,6 @@ const Features = () => {
               <p className="c2p">
                 Expert designed interface for monitoring risks, simulating
                 multiple scenarios and testing new strategies on the go.
-                
 
               </p>
             </div>
@@ -95,9 +94,8 @@ const Features = () => {
               <button className="c3">Intelligence</button>
               <h2>Decision science powered</h2>
               <p className="c3p">
-                Harnessing the power of data science algorithms and AI to drive
-                insights, strategies and execution across the credit cycle.
-
+                Seamless risk management through comprehensive strategies and
+                leveraging AI/ML to drive optimal decisions at the right time.
               </p>
             </div>
           </div>
@@ -106,21 +104,18 @@ const Features = () => {
               <button className="c4">Adaptive</button>
               <h2>Dynamic Strategies</h2>
               <p className="c4p">
-                Algorithms to tailor dynamic strategies that adapt to the unique
+                algorithms to tailor dynamic strategies that adapt to the unique
                 risk characteristics of each client's portfolio and customers.
-
               </p>
             </div>
           </div>
           <div className="maincard">
             <div className="card">
-              <button className="c5">Security</button>
-              <h2>Secure Infrastructure</h2>
+              <button className="c5">Optimization</button>
+              <h2>End to End Risk Mitigation</h2>
               <p className="c5p">
-                Secure infrastructure that ensures integrity and confidentiality
-                of data, providing a reliable and resilient foundation for
-                seamless operations.
-
+                Seamless risk management through comprehensive strategies and
+                leveraging AI/ML to drive optimal decisions at the right time.
               </p>
             </div>
           </div>
