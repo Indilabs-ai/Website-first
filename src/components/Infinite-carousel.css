@@ -6,7 +6,8 @@
 }
 
 .sliderbox {
-  height: 300px;
+  height: 200px !important;
+
   width: 60%;
   background-color: #fdeeee;
   position: relative;
@@ -89,8 +90,9 @@
 
 @media (max-width: 1750px) {
   .sliderbox {
-    height: 250px;
-    width: 65%;
+    height: 180px !important;
+    width: 70%;
+
     background-color: #fdeeee;
     position: relative;
   }
@@ -103,7 +105,8 @@
 
 @media (max-width: 1600px) {
   .sliderbox {
-    height: 250px;
+    height: 180px !important;
+
     width: 70%;
     background-color: #fdeeee;
     position: relative;
@@ -117,7 +120,8 @@
 
 @media (max-width: 1500px) {
   .sliderbox {
-    height: 250px;
+    height: 180px !important;
+
     width: 75%;
     background-color: #fdeeee;
     position: relative;
@@ -131,7 +135,8 @@
 
 @media (max-width: 1300px) {
   .sliderbox {
-    height: 250px;
+    height: 170px !important;
+
     width: 80% !important;
     background-color: #fdeeee;
     position: relative;
@@ -145,7 +150,8 @@
 
 @media (max-width: 1200px) {
   .sliderbox {
-    height: 220px;
+    height: 160px !important;
+
     width: 85% !important;
     background-color: #fdeeee;
     position: relative;
@@ -173,7 +179,8 @@
 
 @media (max-width: 992px) {
   .sliderbox {
-    height: 270px;
+    height: 200px !important;
+
     width: 65% !important;
     background-color: #fdeeee;
     position: relative;
@@ -229,7 +236,8 @@
 
 @media (max-width: 610px) {
   .sliderbox {
-    height: 180px;
+    height: 180px !important;
+
     width: 100% !important;
     background-color: #fdeeee;
     position: relative;
@@ -243,7 +251,8 @@
 
 @media (max-width: 576px) {
   .sliderbox {
-    height: 160px;
+    height: 160px !important;
+
     width: 80% !important;
     background-color: #fdeeee;
     position: relative;

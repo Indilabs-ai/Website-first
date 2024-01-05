@@ -85,13 +85,14 @@ const Features = () => {
               <p className="c2p">
                 Expert designed interface for monitoring risks, simulating
                 multiple scenarios and testing new strategies on the go.
+
               </p>
             </div>
           </div>
           <div className="maincard">
             <div className="card">
-              <button className="c3">Automated</button>
-              <h2>AI-assisted platform</h2>
+              <button className="c3">Intelligence</button>
+              <h2>Decision science powered</h2>
               <p className="c3p">
                 Seamless risk management through comprehensive strategies and
                 leveraging AI/ML to drive optimal decisions at the right time.

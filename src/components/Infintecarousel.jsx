@@ -117,7 +117,8 @@ const InfiniteCarousel = () => {
     "./img/decisioning.png",
     "./img/automation.png",
     "./img/APIs.png",
-    // Add more images as needed
+    
+
   ];
 
   return (

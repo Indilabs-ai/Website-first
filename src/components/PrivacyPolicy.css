@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+  padding: 50px;
+}
+.App .top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: black 1px solid;
+}
+.App .top img{
+  height: 8vmin;
+}
+.App .top button {
+  background-color: transparent;
+  background-image: linear-gradient(94deg, #e84855 0%, #ac2631 100%);
+  color: white;
+  border: #6A141C 2px solid;
+  border-radius: 5px;
+  padding: 5px 60px;
+  font-weight: 900;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+@media(max-width: 550px){
+  .App .top button {
+    padding: 0 30px;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .App {
+    padding: 20px;
+  }
+}
+@media(max-width: 300px){
+  .App .top button {
+    padding: 0 20px;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .App {
+    padding: 20px;
+  }
+}
+.App .top button:hover {
+  background-color: white;
+  background-image: none;
+  color: #6A141C;
+}
+.email{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  padding-left: 50px;
+  margin-top: 4px;
+  
+}
+.email h2{
+  padding-left: 20px;
+  padding-bottom: 4px;
+  font-size: 20px;
+}
+
+@media(max-width: 550px){
+  .email{
+    padding-left: 15px;
+  }
+  .email h2{
+    font-size: 15px;
+    padding-left: 10px;
+  }
+}
+@media(max-width: 300px){
+  .email h2{
+    font-size: 8px;
+  }
+}
+.content{
+  text-align: left;
+  margin-top: 100px;
+}
+h3{
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+h4{
+  font-size: 2rem;
+  font-weight: 400;
+}
+h5{
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+p{
+  font-size: large;
+}
+@media(max-width:350px){
+  h3{
+    font-size: 2rem;
+  }
+}
+
+.footer{
+  background: linear-gradient(226.45deg, #E84855 12.61%, #711B22 47.55%, #320B0F 82.3%);
+  padding: 60px 50px;
+  text-align: center;
+}
+.footer .fotlogo{
+  border-bottom: white 1px solid;
+}
+.footer .fotlogo img{
+  height: 15vmin;
+}
+.footer p{
+  color: white;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.footer .btm{
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+@media(max-width: 450px){
+  .footer .btm{
+    flex-direction: column;
+    gap: 0;
+  }
+  
+}
