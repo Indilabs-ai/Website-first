@@ -118,6 +118,7 @@ const InfiniteCarousel = () => {
     "./img/automation.png",
     "./img/APIs.png",
     
+
   ];
 
   return (

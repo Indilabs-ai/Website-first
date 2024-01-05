@@ -74,6 +74,7 @@ const Features = () => {
               <p className="c1p">
                 Seamless risk management through comprehensive strategies and
                 leveraging AI/ML to drive optimal decisions at the right time.{" "}
+
               </p>
             </div>
           </div>
@@ -85,6 +86,7 @@ const Features = () => {
                 Expert designed interface for monitoring risks, simulating
                 multiple scenarios and testing new strategies on the go.
                 
+
               </p>
             </div>
           </div>
@@ -95,6 +97,7 @@ const Features = () => {
               <p className="c3p">
                 Harnessing the power of data science algorithms and AI to drive
                 insights, strategies and execution across the credit cycle.
+
               </p>
             </div>
           </div>
@@ -105,6 +108,7 @@ const Features = () => {
               <p className="c4p">
                 Algorithms to tailor dynamic strategies that adapt to the unique
                 risk characteristics of each client's portfolio and customers.
+
               </p>
             </div>
           </div>
@@ -116,6 +120,7 @@ const Features = () => {
                 Secure infrastructure that ensures integrity and confidentiality
                 of data, providing a reliable and resilient foundation for
                 seamless operations.
+
               </p>
             </div>
           </div>

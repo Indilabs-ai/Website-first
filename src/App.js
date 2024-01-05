@@ -13,6 +13,7 @@ import Infinitecarousel from "./components/Infintecarousel";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 
 
+
 const Home = () => {
   return (
     <>
@@ -67,6 +68,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           {/* <Route path="/privacy-policy" element={<PrivacyPolicy />} /> */}
+
           {/* <Route path="/service" element={<ServiceNav />} /> */}
           {/* <Route path="/feature" element={<FeatureNav />} /> */}
           <Route path="/contact" element={<Contact />} />
@@ -78,6 +80,7 @@ const App = () => {
         <Contact />
         <Footer />
       
+
     </Router>
   );
 };

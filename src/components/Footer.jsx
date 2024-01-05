@@ -2,11 +2,11 @@ import React from "react";
 import "../App.css";
 import { Link } from "react-scroll";
 import { Link as RouterLink } from "react-router-dom";
+
 import { Facebook } from "lucide-react";
 import { Instagram } from "lucide-react";
 import { FaXTwitter } from "react-icons/fa6";
 import { Linkedin } from "lucide-react";
-
 
 const Footer = () => {
   return (
@@ -43,6 +43,7 @@ const Footer = () => {
             </li>
             <li>
               <RouterLink to="/privacy-policy">Privacy Policy</RouterLink>
+
             </li>
             {/* <li>Contact us</li> */}
           </ul>
@@ -65,6 +66,7 @@ const Footer = () => {
         </div>
         <div className="footer-nav-social">
           {/* <div className="social-media">
+
             <div className="social-icon">
               <Facebook />
             </div>
@@ -85,6 +87,7 @@ const Footer = () => {
           >
             <img src="./img/linkedin-bnw.png" className="linkedin"></img>
           </a>
+
         </div>
       </div>
       <div className="footer-copyright">
