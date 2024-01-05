@@ -81,7 +81,7 @@ const Features = () => {
           <div className="maincard">
             <div className="card">
               <button className="c2">Simplified</button>
-              <h2>Intuitive, user-friendly UI</h2>
+              <h2>Intuitive, User-Friendly UI</h2>
               <p className="c2p">
                 Expert designed interface for monitoring risks, simulating
                 multiple scenarios and testing new strategies on the go.
@@ -92,7 +92,7 @@ const Features = () => {
           <div className="maincard">
             <div className="card">
               <button className="c3">Intelligence</button>
-              <h2>Decision science powered</h2>
+              <h2>Decision Science Powered</h2>
               <p className="c3p">
                 Seamless risk management through comprehensive strategies and
                 leveraging AI/ML to drive optimal decisions at the right time.
