@@ -1,178 +1,220 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-.App {
-  text-align: center;
-}
+  .PrivacyApp {
+    text-align: center;
+  }
 
-.App-logo {
+  .PrivacyApp-logo {
+    
+    pointer-events: none;
+  }
+
+  .first-title {
+    border-top: none !important;
+  }
+
+  .privacycontent h3{
+    border-top: black 2px solid;
+    font-size: 35px;
+    padding: 20px 0 20px 0;
+  }
   
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .privacycontent h4{
+    font-weight: 450;
+    font-size: 25px;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.App {
-  padding: 50px;
-}
-.App .top {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 20px;
-  border-bottom: black 1px solid;
-}
-.App .top img{
-  height: 8vmin;
-}
-.App .top button {
-  background-color: transparent;
-  background-image: linear-gradient(94deg, #e84855 0%, #ac2631 100%);
-  color: white;
-  border: #6A141C 2px solid;
-  border-radius: 5px;
-  padding: 5px 60px;
-  font-weight: 900;
-  font-size: 1rem;
-  font-family: 'Poppins', sans-serif;
-}
-@media(max-width: 550px){
-  .App .top button {
-    padding: 0 30px;
+  .privacycontent h5{
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 22px;
   }
-  .App {
-    padding: 20px;
-  }
-}
-@media(max-width: 300px){
-  .App .top button {
-    padding: 0 20px;
-    font-weight: 500;
-    font-size: 1rem;
-  }
-  .App {
-    padding: 20px;
-  }
-}
-.App .top button:hover {
-  background-color: white;
-  background-image: none;
-  color: #6A141C;
-}
-.email{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  position: absolute;
-  left: 0;
-  padding-left: 50px;
-  margin-top: 4px;
-  
-}
-.email h2{
-  padding-left: 20px;
-  padding-bottom: 4px;
-  font-size: 20px;
-}
 
-@media(max-width: 550px){
-  .email{
-    padding-left: 15px;
+  .privacycontent p{
+    font-size: 19px;
+    padding-bottom: 20px;
   }
-  .email h2{
-    font-size: 15px;
-    padding-left: 10px;
-  }
-}
-@media(max-width: 300px){
-  .email h2{
-    font-size: 8px;
-  }
-}
-.content{
-  text-align: left;
-  margin-top: 100px;
-}
-h3{
-  font-size: 2.5rem;
-  font-weight: 400;
-}
-h4{
-  font-size: 2rem;
-  font-weight: 400;
-}
-h5{
-  font-size: 1.7rem;
-  font-weight: 400;
-}
-p{
-  font-size: large ;
-}
-li{
-  font-size: large;
-}
-@media(max-width:350px){
-  h3{
-    font-size: 2rem;
-  }
-}
 
-.footer{
-  background: linear-gradient(226.45deg, #E84855 12.61%, #711B22 47.55%, #320B0F 82.3%);
-  padding: 60px 50px;
-  text-align: center;
-}
-.footer .fotlogo{
-  border-bottom: white 1px solid;
-}
-.footer .fotlogo img{
-  height: 15vmin;
-}
-.footer p{
-  color: white;
-  font-weight: 600;
-  font-size: 1.3rem;
-}
-.footer .btm{
-  text-align: left;
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-}
-@media(max-width: 450px){
-  .footer .btm{
+  .privacycontent li {
+    list-style-type: disc;  
+    line-height: 1.75;
+    
+  }
+
+  .privacycontent ul {
+    padding-inline-start: 50px;
+    padding-bottom: 20px;
+  }
+
+  .cookie-section{
+    padding-bottom: 0px !important;
+    font-size: 18px !important;
+  }
+
+
+  .emailinkpp {
+    padding-top: 10px;
+    color: black;
+  }
+
+  .emailinkpp:hover {
+    text-decoration: underline;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .PrivacyApp-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+  .PrivacyApp-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
     flex-direction: column;
-    gap: 0;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
   }
+
+  .PrivacyApp-link {
+    color: #61dafb;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .PrivacyApp {
+    padding: 50px;
+  }
+  .PrivacyApp .privacytop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: black 2px solid;
+  }
+  .PrivacyApp .privacytop img{
+    height: 8vmin;
+  }
+  .PrivacyApp .privacytop button {
+    background-color: #e84855;
+    color: #fff;
+    border: 0cm;
+    padding: 8px 32px 8px 32px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: background-color 0.5s, transform 0.5s;
+    cursor: pointer;
+  }
+
+  .PrivacyApp .privacytop button:hover {
+    background-color: #ae3643;
+    background-image: none;
+    color: white;
+  }
+  .privacyemail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    padding-left: 50px;
+    margin-top: 4px;
+    
+  }
+  .privacyemail h2{
+    padding-left: 20px;
+    padding-bottom: 4px;
+    font-size: 20px;
+  }
+
+
+  .privacycontent{
+    text-align: left;
+    margin-top: 100px;
+  }
+  h3{
+    font-size: 2.5rem;
+    font-weight: 400;
+  }
+  h4{
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  h5{
+    font-size: 1.7rem;
+    font-weight: 400;
+  }
+  p{
+    font-size: large ;
+  }
+  li{
+    font-size: large;
+  }
+
+  @media(max-width: 550px){
+    .PrivacyApp {
+      padding: 20px;
+    }
+    .privacyemail{
+      padding-left: 15px;
+    }
+    .privacyemail h2{
+      font-size: 15px;
+      padding-left: 10px;
+    }
+    .PrivacyApp .privacytop button {
+      padding: 0 20px;
+      font-weight: 500;
+      font-size: 1.5rem;
+      height: 40px !important;
+      width: 100px !important;
+    }
+  }
+
+  @media(max-width: 450px){
+    .footer .btm{
+      flex-direction: column;
+      gap: 0;
+    }
+    .PrivacyApp .privacytop button {
+      padding: 0 20px 0 20px;
+      font-weight: 500;
+      font-size: 1.5rem;
+      height: 40px !important;
+      width: 90px !important;
+    }
+  }
+
+  @media(max-width:350px){
+    h3{
+      font-size: 2rem;
+    }
+  }
+
+  @media(max-width: 300px){
+    .PrivacyApp .privacytop button {
+      padding: 0 20px;
+      font-weight: 500;
+      font-size: 1rem;
+      height: 30px !important;
+      width: 75px !important;
+    }
+    .PrivacyApp {
+      padding: 20px;
+    }
+    .privacyemail h2{
+      font-size: 8px;
+    }
+  }
+
   
-} */

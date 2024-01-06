@@ -6,20 +6,20 @@ const PrivacyPolicy = () => {
   return (
     <>
       <div>
-        <div className="App">
-          <div className="top">
+        <div className="PrivacyApp">
+          <div className="privacytop">
             <img
               src="https://www.indilabs.ai/wp-content/uploads/2023/01/Logo-white-Vector.png"
               alt="logo"
             />
             <a href="/"><button>Home</button></a>
           </div>
-          <div className="email">
+          <div className="privacyemail">
             <box-icon name="envelope" className="emaillogo"></box-icon>
-            <h2>info@indilabs.ai</h2>
+            <a href="mailto:info@indilabs.ai"><h2 className="emailinkpp">info@indilabs.ai</h2></a>
           </div>
-          <div className="content">
-            <h3>Privacy Policy</h3>
+          <div className="privacycontent">
+            <h3 className="first-title">Privacy Policy</h3>
             <p>Last updated: February 03, 2023</p>
             <p>
               This Privacy Policy describes Our policies and procedures on the
@@ -179,9 +179,9 @@ const PrivacyPolicy = () => {
             <ul>
               <li>
                 Necessary / Essential Cookies
-                <p>Type: Session Cookies</p>
-                <p>Administered by: Us</p>
-                <p>
+                <p className="cookie-section">Type: Session Cookies</p>
+                <p className="cookie-section">Administered by: Us</p>
+                <p className="cookie-section">
                   Purpose: These Cookies are essential to provide You with
                   services available through the Website and to enable You to
                   use some of its features. They help to authenticate users and
@@ -193,18 +193,18 @@ const PrivacyPolicy = () => {
               </li>
               <li>
                 Cookies Policy / Notice Acceptance Cookies
-                <p>Type: Persistent Cookies</p>
-                <p>Administered by: Us</p>
-                <p>
+                <p className="cookie-section">Type: Persistent Cookies</p>
+                <p className="cookie-section">Administered by: Us</p>
+                <p className="cookie-section">
                   Purpose: These Cookies identify if users have accepted the use
                   of cookies on the Website.
                 </p>
               </li>
               <li>
                 Functionality Cookies
-                <p>Type: Persistent Cookies</p>
-                <p>Administered by: Us</p>
-                <p>
+                <p className="cookie-section">Type: Persistent Cookies</p>
+                <p className="cookie-section">Administered by: Us</p>
+                <p className="cookie-section">
                   Purpose: These Cookies allow us to remember choices You make
                   when You use the Website, such as remembering your login
                   details or language preference. The purpose of these Cookies
@@ -463,8 +463,8 @@ const PrivacyPolicy = () => {
               contact us:
             </p>
             <ul>
-              <li>By email: info@indilabs.ai</li>
-              <li>By visiting this page on our website: https://indilabs.ai</li>
+              <li>By email: <a href="emailto:info@indilabs.ai">info@indilabs.ai</a></li>
+              <li>By visiting this page on our website: <a href="https://indilabs.ai">https://indilabs.ai</a></li>
             </ul>
           </div>
         </div>
