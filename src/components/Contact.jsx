@@ -48,7 +48,7 @@ const Contact = () => {
           <div className="contact-content">
             <p className="contact-heading">Get in touch with us</p>
             <p className="contact-para">
-              Please drop your email here and we shall get back to you. We
+              Please drop your email here and we will get back to you. We
               promise not to spam you!
             </p>
           </div>
