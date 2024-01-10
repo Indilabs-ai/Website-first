@@ -49,8 +49,8 @@ const Features = () => {
           <div className="topleft">
             <h1>Features</h1>
             <p>
-              What makes Riko a category defining solution: Precision,
-              Intuitiveness, Risk Management, and Dynamic Strategies
+              What makes Riko a category defining solution: Precision, Risk
+              Management, and Dynamic Strategies
             </p>
           </div>
           <div className="carousel-arrows">
@@ -69,7 +69,7 @@ const Features = () => {
           {/* Replace the following URLs with your image URLs */}
           <div className="maincard">
             <div className="card">
-              <button className="c1">Guardian</button>
+              <button className="c1">Secure</button>
               <h2>Highly Secure Infrastructure</h2>
               <p className="c1p">
                 Secure infrastructure that ensures integrity and confidentiality
@@ -85,13 +85,12 @@ const Features = () => {
               <p className="c2p">
                 Expert designed interface for monitoring risks, simulating
                 multiple scenarios and testing new strategies on the go.
-
               </p>
             </div>
           </div>
           <div className="maincard">
             <div className="card">
-              <button className="c3">Intelligence</button>
+              <button className="c3">Intelligent</button>
               <h2>Decision Science Powered</h2>
               <p className="c3p">
                 Seamless risk management through comprehensive strategies and
@@ -111,7 +110,7 @@ const Features = () => {
           </div>
           <div className="maincard">
             <div className="card">
-              <button className="c5">Optimization</button>
+              <button className="c5">Optimised</button>
               <h2>End to End Risk Mitigation</h2>
               <p className="c5p">
                 Seamless risk management through comprehensive strategies and

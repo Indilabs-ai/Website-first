@@ -11,10 +11,10 @@ const Intro = () => {
           decades of experience across Global markets.
         </p>
         <p className="intro-desc">
-          Riko is a first Credit Risk and Collections Strategy stack powered by
-          data, AI and expert-designed algorithms. Designed to enhance
-          profitability, mitigate losses and reduce Costs by powering Risk
-          Intelligence and Collections Strategies with real time data and AI.
+          Riko is a pioneering Credit Risk and Collections Strategy stack,
+          powered by data, AI and expert algorithms engineered to identify and
+          mitigate risks, reduce costs and boost profitability through the
+          lending cycle.
         </p>
       </div>
     </>
