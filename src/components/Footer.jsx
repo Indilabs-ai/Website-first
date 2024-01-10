@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import { Link } from "react-scroll";
+import { HashRouter as Router } from 'react-router-dom';
 import { Link as RouterLink } from "react-router-dom";
 
 import { Facebook } from "lucide-react";
@@ -48,7 +49,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="footer-nav-about">
-          <p className="footer-nav-heading contact-heading">Contact us</p>
+          <p className="footer-nav-heading">Contact us</p>
           <ul className="footer-nav-content">
             <li className="contact-info">
               Have questions or inquiries? Reach out to us for assistance and

@@ -26,7 +26,7 @@ const Founder = () => {
             </div>
             <div className="founder-content">
               <p className="founder-caption">Meet the Founder</p>
-              <p className="founder-heading">Mr. Amit Chandola</p>
+              <p className="founder-heading">Amit Chandola</p>
               <p className="founder-para">
                 20+ years of global experience in Credit and collections across
                 US, India, Hong Kong and the Asia Pacific markets.
