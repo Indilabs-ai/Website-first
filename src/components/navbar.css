@@ -149,6 +149,10 @@ li {
   text-align: center;
 }
 
+.social-media .hamburger-menu .hamburger-icon {
+  color: #000 !important;
+}
+
 /* responsive css style  */
 /* -------------------------------------@media (max-width: 1080px) -------------------------- */
 @media (max-width: 1080px) {

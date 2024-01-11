@@ -15,11 +15,13 @@ const Footer = () => {
       <div id="footer" className="footer-wrapper">
         <div className="footer-about">
           <div className="footer-about-logo">
-            <img
-              src="./img/indilabs-white.png"
-              alt="indilabs.ai"
-              className="indilabs-white"
-            />
+            <Link to="nav" smooth={true} duration={800}>
+              <img
+                src="./img/indilabs-white.png"
+                alt="indilabs.ai"
+                className="indilabs-white"
+              />
+            </Link>
           </div>
           <p className="footer-about-caption">
             Pioneering Precision in Risk Mitigation and Collections through

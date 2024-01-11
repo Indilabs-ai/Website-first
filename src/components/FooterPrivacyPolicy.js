@@ -9,11 +9,13 @@ const FooterPrivacyPolicy = () => {
       <div id="footer" className="footer-wrapper">
         <div className="footer-about">
           <div className="footer-about-logo">
-            <img
-              src="./img/indilabs-white.png"
-              alt="indilabs.ai"
-              className="indilabs-white"
-            />
+            <a href="/">
+              <img
+                src="./img/indilabs-white.png"
+                alt="indilabs.ai"
+                className="indilabs-white"
+              />
+            </a>
           </div>
           <p className="footer-about-caption">
             Pioneering Precision in Risk Mitigation and Collections through
@@ -26,7 +28,7 @@ const FooterPrivacyPolicy = () => {
             <p className="footer-nav-heading">Home</p>
           </a>
           <ul>
-          <li style={{ paddingTop: "15px" }}>
+            <li style={{ paddingTop: "15px" }}>
               <a href="mailto:info@indilabs.ai" className="email-link">
                 info@indilabs.ai
               </a>
@@ -47,7 +49,6 @@ const FooterPrivacyPolicy = () => {
               Have questions or inquiries? Reach out to us for assistance and
               support.
             </li>
-            
           </ul>
         </div>
         <div className="footer-nav-social">
