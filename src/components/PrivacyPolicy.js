@@ -8,15 +8,21 @@ const PrivacyPolicy = () => {
       <div>
         <div className="PrivacyApp">
           <div className="privacytop">
-            <img
-              src="https://www.indilabs.ai/wp-content/uploads/2023/01/Logo-white-Vector.png"
-              alt="logo"
-            />
-            <a href="/"><button>Home</button></a>
+            <a href="/">
+              <img
+                src="https://www.indilabs.ai/wp-content/uploads/2023/01/Logo-white-Vector.png"
+                alt="logo"
+              />
+            </a>
+            <a href="/">
+              <button>Home</button>
+            </a>
           </div>
           <div className="privacyemail">
             <box-icon name="envelope" className="emaillogo"></box-icon>
-            <a href="mailto:info@indilabs.ai"><h2 className="emailinkpp">info@indilabs.ai</h2></a>
+            <a href="mailto:info@indilabs.ai">
+              <h2 className="emailinkpp">info@indilabs.ai</h2>
+            </a>
           </div>
           <div className="privacycontent">
             <h3 className="first-title h3class">Privacy Policy</h3>
@@ -100,7 +106,9 @@ const PrivacyPolicy = () => {
                 individual is accessing or using the Service, as applicable.
               </li>
             </ul>
-            <h3 className=" h3class">Collecting and Using Your Personal Data</h3>
+            <h3 className=" h3class">
+              Collecting and Using Your Personal Data
+            </h3>
             <h4>Types of Data Collected</h4>
             <h5>Personal Data</h5>
             <p className="pclass">
@@ -113,11 +121,15 @@ const PrivacyPolicy = () => {
               <li className="liclass">Email address</li>
               <li className="liclass">First name and last name</li>
               <li className="liclass">Phone number</li>
-              <li className="liclass">Address, State, Province, ZIP/Postal code, City</li>
+              <li className="liclass">
+                Address, State, Province, ZIP/Postal code, City
+              </li>
               <li className="liclass">Usage Data</li>
             </ul>
             <h5>Usage Data</h5>
-            <p className="pclass">Usage Data is collected automatically when using the Service.</p>
+            <p className="pclass">
+              Usage Data is collected automatically when using the Service.
+            </p>
             <p className="pclass">
               Usage Data may include information such as Your Device’s Internet
               Protocol address (e.g. IP address), browser type, browser version,
@@ -193,7 +205,9 @@ const PrivacyPolicy = () => {
               </li>
               <li className="liclass">
                 Cookies Policy / Notice Acceptance Cookies
-                <p className="cookie-section pclass">Type: Persistent Cookies</p>
+                <p className="cookie-section pclass">
+                  Type: Persistent Cookies
+                </p>
                 <p className="cookie-section pclass">Administered by: Us</p>
                 <p className="cookie-section pclass">
                   Purpose: These Cookies identify if users have accepted the use
@@ -202,7 +216,9 @@ const PrivacyPolicy = () => {
               </li>
               <li className="liclass">
                 Functionality Cookies
-                <p className="cookie-section pclass">Type: Persistent Cookies</p>
+                <p className="cookie-section pclass">
+                  Type: Persistent Cookies
+                </p>
                 <p className="cookie-section pclass">Administered by: Us</p>
                 <p className="cookie-section pclass">
                   Purpose: These Cookies allow us to remember choices You make
@@ -220,7 +236,9 @@ const PrivacyPolicy = () => {
               section of our Privacy Policy.
             </p>
             <h4>Use of Your Personal Data</h4>
-            <p className="pclass">The Company may use Personal Data for the following purposes:</p>
+            <p className="pclass">
+              The Company may use Personal Data for the following purposes:
+            </p>
             <ul>
               <li className="liclass">
                 To provide and maintain our Service, including to monitor the
@@ -394,7 +412,9 @@ const PrivacyPolicy = () => {
             </p>
             <ul>
               <li className="liclass">Comply with a legal obligation</li>
-              <li className="liclass">Protect and defend the rights or property of the Company</li>
+              <li className="liclass">
+                Protect and defend the rights or property of the Company
+              </li>
               <li className="liclass">
                 Prevent or investigate possible wrongdoing in connection with
                 the Service
@@ -463,12 +483,18 @@ const PrivacyPolicy = () => {
               contact us:
             </p>
             <ul>
-              <li className="liclass">By email: <a href="emailto:info@indilabs.ai">info@indilabs.ai</a></li>
-              <li className="liclass">By visiting this page on our website: <a href="https://indilabs.ai">https://indilabs.ai</a></li>
+              <li className="liclass">
+                By email:{" "}
+                <a href="emailto:info@indilabs.ai">info@indilabs.ai</a>
+              </li>
+              <li className="liclass">
+                By visiting this page on our website:{" "}
+                <a href="https://indilabs.ai">https://indilabs.ai</a>
+              </li>
             </ul>
           </div>
         </div>
-{/*         
+        {/*         
         <Footer /> */}
       </div>
     </>

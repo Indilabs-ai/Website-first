@@ -15,7 +15,7 @@ const HeroSection = () => {
             <div className="title-button">
               <button>
                 <Link to="contact" smooth={true} duration={800}>
-                  Get Started
+                  Get in Touch
                 </Link>
               </button>
             </div>
