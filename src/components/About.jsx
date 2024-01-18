@@ -13,7 +13,7 @@ const About = () => {
           </div>
           <div className="about-cards">
             <div className="about-card card1">
-              <h3>Monitor Risks and Run Diagnostics for targeted Risk Mitigation</h3>
+              <h3>Monitor Risks and Run Diagnostics for targeted risk mitigation</h3>
               {/* <h3>Monitors risks & runs</h3>
               <h3>diagnostics in near-real time</h3>
               <p>
@@ -31,7 +31,7 @@ const About = () => {
               </p> */}
             </div>
             <div className="about-card card3">
-              <h3>Automates execution and monitors compliance for comprehensive solutions</h3>
+              <h3>Automate Execution and measure outcomes to achieve targets</h3>
               {/* <p>
                 Our platform automates execution, ensuring efficient operations,
                 while also monitoring compliance to industry standards,
