@@ -26,8 +26,10 @@ li {
   width: 100%;
   height: 12rem;
   display: grid;
+  display: -webkit-grid;
   background-color: #fbeeee;
   grid-template-columns: 13rem 1fr 1fr 3fr 10rem;
+  /* grid-template-rows: 100px ) 100px; */
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
@@ -43,6 +45,7 @@ li {
 .logo-black {
   height: 37px;
   width: 180px;
+  /* height: fit-content; */
 }
 
 .menu-link {
@@ -72,7 +75,7 @@ li {
 
 .menu-link ul button:hover {
   background-color: #ae3643; /* Darker shade on hover */
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
 }
 
 .social-media ul {
@@ -115,7 +118,7 @@ li {
   transition: 0.5s;
 }
 .menu-link ul li:hover > a {
-  transform-origin: left;
+  -webkit-transform-origin: left;
   color: rgb(235, 4, 4);
   transition: 0.3s;
 }
@@ -149,10 +152,6 @@ li {
   text-align: center;
 }
 
-.social-media .hamburger-menu .hamburger-icon {
-  color: #000 !important;
-}
-
 /* responsive css style  */
 /* -------------------------------------@media (max-width: 1080px) -------------------------- */
 @media (max-width: 1080px) {
@@ -178,7 +177,7 @@ li {
   .main-nav {
     height: 7rem;
     grid-template-columns: 7rem 2fr 3fr 2rem 7rem;
-    padding-top: 15px;
+    /* padding-top: 15px; */
   }
 
   .menu-link {
@@ -257,6 +256,7 @@ li {
   .main-nav {
     height: 6rem;
     grid-template-columns: 5rem 2fr 1fr 1fr 5rem;
+    padding-top: 15px;
   }
 
   .mobile-menu-link {
@@ -266,6 +266,13 @@ li {
   .logo,
   .social-media ul {
     height: 6rem;
+  }
+
+  
+  .logo-black {
+    height: 55%;
+    width: 95%;
+    /* height: fit-content; */
   }
 
   .social-media {
@@ -280,10 +287,7 @@ li {
     font-size: 2.5rem;
   }
 
-  .logo-black {
-    height: 55%;
-    width: 95%;
-  }
+  
 }
 
 /* -------------------------------------@media (max-width: 520px) -------------------------- */
@@ -330,12 +334,7 @@ li {
   }
 
   .logo h2 {
-    font-size: 2rem;
-  }
-
-  .logo-black {
-    height: 48%;
-    width: 95%;
+    font-size: 2rem; /*check*/
   }
 
   .social-media {
@@ -343,6 +342,12 @@ li {
     display: flex;
     justify-self: end;
     align-items: center;
+  }
+
+  
+  .logo-black {
+    height: 48%;
+    width: 95%;
   }
 
   .social-media .hamburger-menu {

@@ -112,8 +112,8 @@ const InfiniteCarousel = () => {
   const images = [
     "./img/data.png",
     "./img/visualization.png",
-    "./img/diagonostics.png", //to be replaced
-    "./img/simulation.png",
+    "./img/diagnostics.jpeg",
+    "./img/strategies.jpeg",
     "./img/decisioning.png",
     "./img/automation.png",
     "./img/APIs.png",

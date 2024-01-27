@@ -33,14 +33,12 @@ const Navbar = () => {
     <>
       <nav className="main-nav">
         {/* 1st logo part  */}
-        <div id="nav" className="logo">
-          <a href="/" onClick={closeMobileMenu}>
-            <img
-              src="./img/Logo-black.png"
-              alt="Indilabs.ai"
-              className="logo-black"
-            ></img>
-          </a>
+        <div className="logo">
+          <img
+            src="./img/Logo-black.png"
+            alt="Indilabs.ai"
+            className="logo-black"
+          ></img>
         </div>
 
         {/* 2nd menu part  */}
@@ -51,7 +49,7 @@ const Navbar = () => {
         >
           <ul>
             <li>
-              {/* <a className="button"> */}
+            {/* <a className="button"> */}
               <Link
                 to="home"
                 smooth={true}
@@ -60,7 +58,7 @@ const Navbar = () => {
               >
                 Home
               </Link>
-              {/* </a> */}
+            {/* </a> */}
             </li>
             <li>
               <Link
