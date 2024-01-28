@@ -9,8 +9,11 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Navbar from "./components/navbar";
+import Navbar2 from "./components/navbar2";
 import HeroSection from "./components/HeroSection";
+// import Video1 from "./components/Video1";
 import Intro from "./components/Intro";
+// import Video2 from "./components/Video2";
 import Features from "./components/Features";
 import Infinitecarousel from "./components/Infintecarousel";
 import PrivacyPolicy from "./components/PrivacyPolicy";
@@ -21,11 +24,14 @@ import FooterPrivacyPolicy from "./components/FooterPrivacyPolicy";
 const Home = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
+      <Navbar2/>
       <section className="hero-section">
         <HeroSection />
       </section>
+      {/* <Video1/> */}
       <Intro />
+      {/* <Video2/> */}
     </>
   );
 };
