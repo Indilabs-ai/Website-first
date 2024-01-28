@@ -56,7 +56,7 @@ const Navbar = () => {
                 duration={800}
                 onClick={closeMobileMenu}
               >
-                Home
+                Home 
               </Link>
             {/* </a> */}
             </li>
