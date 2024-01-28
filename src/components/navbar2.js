@@ -36,7 +36,7 @@ export const Navbar2 = () => {
   return (
     <nav className="main-nav2">
       <Link to="/" className="title">
-      <div className="logo">
+        <div className="logo">
           <img
             src="./img/Logo-black.png"
             alt="Indilabs.ai"
@@ -51,42 +51,59 @@ export const Navbar2 = () => {
       </div>
       <ul className={menuOpen ? "open" : ""}>
         <li>
-          <NavLink  to="home"
-                smooth={true}
-                duration={800}
-                onClick={closeMobileMenu}>Home</NavLink>
+          <Link
+            to="home"
+            smooth={true}
+            duration={800}
+            onClick={closeMobileMenu}
+          >
+            Home
+          </Link>
         </li>
         <li>
-          <NavLink  to="about"
-                smooth={true}
-                duration={800}
-                onClick={closeMobileMenu}>About</NavLink>
+          <Link
+            to="about"
+            smooth={true}
+            duration={800}
+            onClick={closeMobileMenu}
+          >
+            About
+          </Link>
         </li>
         <li>
-          <NavLink  to="our-product"
-                smooth={true}
-                duration={800}
-                onClick={closeMobileMenu}>Our Product </NavLink>
+          <Link
+            to="our-product"
+            smooth={true}
+            duration={800}
+            onClick={closeMobileMenu}
+          >
+            Our Product{" "}
+          </Link>
         </li>
         <li>
-          <NavLink to="features"
-                smooth={true}
-                duration={800}
-                onClick={closeMobileMenu}>Features</NavLink>
+          <Link
+            to="features"
+            smooth={true}
+            duration={800}
+            onClick={closeMobileMenu}
+          >
+            Features
+          </Link>
         </li>
         <li>
-          <NavLink to="contact"
-                smooth={true}
-                duration={800}
-                onClick={closeMobileMenu}><button>Contact Us</button></NavLink>
+          <Link
+            to="contact"
+            smooth={true}
+            duration={800}
+            onClick={closeMobileMenu}
+          >
+            <button>Contact Us</button>
+          </Link>
         </li>
       </ul>
-
-      
     </nav>
   );
 };
-
 
 export default Navbar2;
 

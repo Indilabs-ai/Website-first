@@ -10,7 +10,7 @@ const HeroSection = () => {
           <div className="title-box">
             <p className="title">The Business Of Lending Is Transforming.</p>
             <p className="subtitle">
-              Are your Risk intelligence and Collections capabilities keeping up?
+              Are your Risk intelligence and Collections capabilities optimized for <i>profitable</i> growth?
             </p>
             <div className="title-button">
               <button>
