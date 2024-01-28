@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Jost", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -41,12 +41,11 @@ li {
   justify-content: start;
   align-items: center;
 }
-
+/* 
 .logo-black {
   height: 37px;
   width: 180px;
-  /* height: fit-content; */
-}
+} */
 
 .menu-link {
   grid-column: 4/5;
@@ -97,7 +96,7 @@ li {
 /* ----------- Grid part ends ----------------- */
 
 .logo h2 {
-  font-size: 3.5rem;
+  font-size: 3.5rem !important;
   font-weight: 400;
   background-color: #ff0000;
   -webkit-background-clip: text;
@@ -105,7 +104,7 @@ li {
 }
 
 .logo h2 span {
-  font-size: 3.5rem;
+  font-size: 3.5rem !important;
 }
 
 .menu-link ul li {
@@ -281,12 +280,11 @@ li {
     height: 6rem;
   }
 
-  
+/*   
   .logo-black {
     height: 55%;
     width: 95%;
-    /* height: fit-content; */
-  }
+  } */
 
   .social-media {
     height: 6rem;
@@ -347,12 +345,9 @@ li {
 
   .logo,
   .social-media ul {
-    height: 6rem;
+    height: 6rem !important;
   }
 
-  .logo h2 {
-    font-size: 2rem; /*check*/
-  }
 
   .social-media {
     height: 6rem;
@@ -362,10 +357,10 @@ li {
   }
 
   
-  .logo-black {
+  /* .logo-black {
     height: 48%;
     width: 95%;
-  }
+  } */
 
   .social-media .hamburger-menu {
     /* display: block; */

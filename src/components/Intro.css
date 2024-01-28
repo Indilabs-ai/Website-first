@@ -18,8 +18,8 @@
 }
 
 .intro-subtitle {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   width: 800px;
   text-align: center;
   font-size: 28px;
@@ -152,7 +152,7 @@
     height: 400px;
   }
   .intro-title {
-    font-size: 22px;
+    font-size: 29px;
     margin-top: 19px;
   }
 

@@ -13,7 +13,7 @@ const About = () => {
           </div>
           <div className="about-cards">
             <div className="about-card card1">
-              <h3>Monitor Risks and Run Diagnostics for targeted risk mitigation</h3>
+              <h3>Monitors Risks and Runs Diagnostics for Targeted Risk Mitigation</h3>
               {/* <h3>Monitors risks & runs</h3>
               <h3>diagnostics in near-real time</h3>
               <p>
@@ -23,7 +23,7 @@ const About = () => {
               </p> */}
             </div>
             <div className="about-card card2">
-              <h3>Stimulates and Optimizes Strategies with Precision and Control</h3>
+              <h3>Simulates and Optimizes Strategies with Precision and Control</h3>
               {/* <p>
                 Our platform optimizes strategies, reducing deployment time, and
                 enabling agile decision-making to enhance performance and
@@ -31,7 +31,7 @@ const About = () => {
               </p> */}
             </div>
             <div className="about-card card3">
-              <h3>Automate Execution and measure outcomes to achieve targets</h3>
+              <h3>Automates Execution and Measures Outcomes to achieve Targets</h3>
               {/* <p>
                 Our platform automates execution, ensuring efficient operations,
                 while also monitoring compliance to industry standards,
