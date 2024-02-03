@@ -49,8 +49,8 @@ const Features = () => {
           <div className="topleft">
             <h1>Features</h1>
             <p>
-              What makes Riko a category defining solution: Precision, Risk
-              Management, and Dynamic Strategies
+              What makes Riko a category defining solution: Precision, Active Risk
+              Management for Profitable Growth, and Dynamic Strategies
             </p>
           </div>
           <div className="carousel-arrows">

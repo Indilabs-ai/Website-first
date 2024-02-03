@@ -18,8 +18,8 @@ const FooterPrivacyPolicy = () => {
             </a>
           </div>
           <p className="footer-about-caption">
-            Pioneering Precision in Risk Mitigation and Collections through
-            Unified Data Excellence.
+            {/* Pioneering Precision in Risk Mitigation and Collections through
+            Unified Data Excellence. */}
           </p>
           {/* <p className='footer-about-mail'>info@indilabs.ai</p> */}
         </div>
