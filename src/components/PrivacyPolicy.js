@@ -10,7 +10,7 @@ const PrivacyPolicy = () => {
           <div className="privacytop">
             <a href="/">
               <img
-                src="https://www.indilabs.ai/wp-content/uploads/2023/01/Logo-white-Vector.png"
+                src="./img/Logo-black.png"
                 alt="logo"
               />
             </a>
